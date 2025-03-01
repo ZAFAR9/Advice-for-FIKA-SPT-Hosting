@@ -187,3 +187,4 @@ If you have additional tips or tools to recommend, feel free to submit a pull re
 ## License
 
 This guide is open-source and available under the MIT License. Feel free to use and share it!
+[LICENSE](./LICENSE)
