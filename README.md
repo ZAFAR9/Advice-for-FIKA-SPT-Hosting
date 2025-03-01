@@ -7,14 +7,21 @@ Welcome to the **SPT FIKA Hosting Guide**! This guide is designed to help you ho
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [What You Need to Know Before Hosting](#what-you-need-to-know-before-hosting)
-3. [Mod Sharing and Syncing](#mod-sharing-and-syncing)
-4. [Bundle Optimization](#bundle-optimization)
-5. [Hosting Methods: VPN vs. Port Forwarding](#hosting-methods-vpn-vs-port-forwarding)
-6. [Best Practices for Hosting](#best-practices-for-hosting)
-7. [Tools and Resources](#tools-and-resources)
-8. [FAQ](#faq)
-9. [Contributing](#contributing)
-10. [License](#license)
+3. 3. [How to Set Up FIKA for Co-op Play](#how-to-set-up-fika-for-co-op-play)
+   - [Step 1: Download Radmin VPN](#step-1-download-radmin-vpn)
+   - [Step 2: Join a Network in Radmin VPN](#step-2-join-a-network-in-radmin-vpn)
+   - [Step 3: Download FIKA Server and FIKA Release](#step-3-download-fika-server-and-fika-release)
+   - [Step 4: Configure the Launcher](#step-4-configure-the-launcher)
+   - [Step 5: Update the Server Address](#step-5-update-the-server-address)
+   - [Step 6: You’re Ready to Play!](#step-6-youre-ready-to-play)
+4. [Mod Sharing and Syncing](#mod-sharing-and-syncing)
+5. [Bundle Optimization](#bundle-optimization)
+6. [Hosting Methods: VPN vs. Port Forwarding](#hosting-methods-vpn-vs-port-forwarding)
+7. [Best Practices for Hosting](#best-practices-for-hosting)
+8. [Tools and Resources](#tools-and-resources)
+9. [FAQ](#faq)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ---
 
@@ -42,6 +49,74 @@ Before diving into the technical details, here are some key concepts and terms y
 
 5. **Tools**:  
    - There are several tools available to help you manage mods, optimize bundles, and host your server. These tools will be explained in the sections below.
+
+---
+## How to Set Up FIKA for Co-op Play
+
+This section will walk you through setting up **Radmin VPN** and configuring **FIKA** so you and your friends can play SPT Tarkov together. Follow these steps carefully, and you’ll be ready to go in no time!
+
+### Step 1: Download Radmin VPN
+
+1. Open your web browser (e.g., Google Chrome).  
+2. Search for **Radmin VPN** or go directly to [Radmin VPN’s official website](https://www.radmin-vpn.com/).  
+3. Download and install Radmin VPN like you would any other program.  
+   - Follow the installation prompts, and once it’s installed, launch the program.
+
+---
+
+### Step 2: Join a Network in Radmin VPN
+
+1. Open Radmin VPN.  
+2. At the top of the program, click on **Network**.  
+3. Select **Join Network** from the dropdown menu.  
+4. Enter the **Network Name** and **Password** provided by the server host (your friend or whoever is hosting the game).  
+   - If you’re the host, you’ll need to create a network instead (click **Create Network** and share the name and password with your friends).  
+5. Once connected, you’ll see the network and the IP addresses of everyone in it.  
+
+---
+
+### Step 3: Download FIKA Server and FIKA Release
+
+1. Open your web browser again and search for **FIKA Server** and **FIKA Release**.  
+   - These are essential mods for enabling co-op play in SPT Tarkov.  
+2. Follow the links to their GitHub repositories.  
+   - GitHub is a platform where developers share their projects. You’ll find the download links for FIKA there.  
+3. Download the files just like you would any other mod.  
+   - Make sure to place the downloaded files in the correct folders in your SPT Tarkov directory (usually in `user/mods`).
+
+---
+
+### Step 4: Configure the Launcher
+
+1. Launch your **SPT Tarkov Launcher** (not the server yet).  
+2. After a few seconds, you’ll see an error message: **"SPT Server Not Found"**.  
+   - Don’t worry—this is expected!  
+3. In the top-right corner of the launcher, click on **Settings**.  
+4. Enable **Developer Mode** by clicking the checkbox.  
+
+---
+
+### Step 5: Update the Server Address
+
+**NOW PAY ATTENTION!!!** This is the most important part, so follow these instructions carefully:  
+
+1. In the **Settings** menu, you’ll see a field labeled **Server Address**.  
+2. By default, this field will say `127.0.0.1`.  
+   - This is the local IP address for your own computer, but since you’re playing with friends over a VPN, you need to change it.  
+3. **Remove `127.0.0.1`** and replace it with the **VPN IP address of the server host**.  
+   - You can find the host’s VPN IP address in Radmin VPN (it will be listed next to their name in the network).  
+4. Save your changes and close the settings menu.
+
+---
+
+### Step 6: You’re Ready to Play!
+
+Congratulations! You’ve successfully set up FIKA for co-op play. Here’s a quick recap of what you’ve done:
+- Installed and configured Radmin VPN to connect with your friends.
+- Downloaded and installed FIKA Server and FIKA Release.
+- Updated the server address in the SPT Tarkov Launcher to point to the host’s VPN IP.
+
+Now all that’s left is to download any additional mods you want to use, make sure everyone has the same mod setup, and start playing!
 
 ---
 
@@ -187,4 +262,3 @@ If you have additional tips or tools to recommend, feel free to submit a pull re
 ## License
 
 This guide is open-source and available under the MIT License. Feel free to use and share it!
-[LICENSE](./LICENSE)
