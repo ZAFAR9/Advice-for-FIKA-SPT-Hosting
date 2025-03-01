@@ -1,6 +1,6 @@
 # SPT FIKA Hosting Guide and FAQ
 
-Welcome to the **SPT FIKA Hosting Guide**! This guide is designed to help you host SPT Tarkov servers with large modlists (80+ mods) while ensuring a smooth and enjoyable experience for your friends. Whether you're completely new to hosting or have some experience, this guide will walk you through every step, explain the tools you need, and provide solutions to common problems.
+Welcome to the **SPT FIKA Hosting Guide**! This guide is designed to help you host SPT Tarkov servers with large modlists (80+ mods) while ensuring a smooth and enjoyable experience for your friends. Whether you're completely new to hosting or have some experience, this guide will walk you through every step, explain the tools you need, and provide solutions to common problems. This is advice coming from a long time FIKA server hoster and not offically from FIKA or SPT.
 
 ---
 
